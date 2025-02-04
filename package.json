@@ -1,0 +1,21 @@
+{
+  "name": "swm",
+  "version": "1.0.0",
+  "description": "Web App with Node, TypeScript, EJS and MySQL",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.ts"
+  },
+  "author": "Marco Valeri",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "nodemon": "^3.1.9"
+  }
+}
